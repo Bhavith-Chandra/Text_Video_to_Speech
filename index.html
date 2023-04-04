@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Textual Video to Speech Interface</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+</head>
+ 
+<body background="http://theesteps.com/wp-content/uploads/2015/01/clean-white-polygon-backgrounds-101.jpg">
+ 
+    <div class="container">
+        <div class="header">
+            <br><br><h2 class="text-muted">Textual Video to Speech Interface</h2>
+        </div>
+ 
+        
+            <h3>Select Your Video</h3><br>
+            <form action="upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" multiple accept='video/*' class="btn btn-default" /><br />
+                <input type="submit" class="btn btn-primary" value="Upload" />
+            </form>
+    
+ 
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Format of Video</h4>
+                <p>This software only accepts .mp4 format of video. If not available, convert it.</p>
+            </div>
+ 
+            <div class="col-lg-6">
+                <h4>Length of Video</h4>
+                <p>Make video not more than 15 sec. and it should not be shaky and blurred.</p>
+            </div>
+        </div>
+ 
+        <footer class="footer">
+            <p>&copy; Abhay | Deepshi</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
